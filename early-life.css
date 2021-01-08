@@ -1,0 +1,146 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    width: 1000px;
+    height: 100%;
+    margin: auto;
+    font-family: Tahoma, sans-serif;
+    background: url(body.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+nav {
+    position: fixed;
+    top: 0px;
+    float: left;
+    display: inline-block;
+    width: 200px;
+    height: 100%;
+    border-right: 3px solid #5c5c5cbd;
+    border-left: 3px solid #5c5c5cbd;
+    box-sizing: border-box;
+    background-color: #fc4d4d;
+    font-family: Tahoma, sans-serif;
+    font-size: 1.5em;
+}
+
+ul{
+    padding: 50px 0px 0px 0px;
+}
+
+section {
+    display: inline-block;
+    top: 0px;
+    float: right;
+    width: 800px;
+    height: 100%;
+    box-sizing: border-box;
+    border-right: 3px solid #5c5c5cbd;
+    background-color: #fc4d4d;
+}
+
+li {
+    list-style-type: none;
+}
+
+.link:hover {
+    background-color: white;
+    color: #0000ff; 
+    transition: 600ms;
+    text-transform: none;
+    border-radius: 50%;
+}
+
+.link {
+    display: block;
+    margin-bottom: 100px;
+    text-decoration: none;
+    text-align: center;
+    height: 60px;
+    font-weight: bold;
+    color: white;
+    margin-top: 40px;
+    padding: 10px 0px 3px 0px;
+}
+
+header {
+    text-align: center;
+    margin-top: 0px;
+    font-size: 2em;
+    border-bottom: 3px solid #5c5c5cbd;
+    color: #fff8f0;
+    font-weight: bolder;
+}
+
+cite {
+    display: inline-block;
+    border: 1px solid blue;
+    border-radius: 26%;
+    background-color: #d8dc7a94;
+    padding:30px;
+    margin: 30px auto;
+}
+
+article {
+    text-align: center;
+    margin-top: 0px;
+}
+
+#education {
+    padding-bottom: 100px;
+    background-image: url(education.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+img {
+    display: block;
+    margin: 100px auto 30px;
+    width: 650px;
+}
+
+#early-life {
+    margin: 2px 0px;
+    border-bottom: 3px solid #5c5c5cbd;
+    background-image: url(cloud.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+h2 {
+    margin-top: 0px;
+    margin-bottom: 70px;
+    padding-top: 100px;
+    color: #0a0a0abd
+}
+
+h3 {
+    margin-top: 0px;
+    margin-bottom: 70px;
+    padding-top: 100px; 
+    color: #0a0a0abd
+}
+
+h2+p {
+    padding: 20px;
+}
+
+#education > p {
+    padding: 20px;
+    margin-bottom: 5px;
+}
+
+a {
+    text-decoration: none;
+    color: #fff8f0;
+}
+
+a:hover {
+    color: #1900ffc5; 
+    text-transform: uppercase;
+}
+
